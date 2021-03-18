@@ -62,19 +62,6 @@ DOMAIN,assets1.xboxlive.com,Global
 DOMAIN,assets2.xboxlive.com,Global
 DOMAIN,az416426.vo.msecnd.net,Global
 DOMAIN,az668014.vo.msecnd.net,Global
-# > The New York Times
-DOMAIN-SUFFIX,nyt.com,Global
-DOMAIN-SUFFIX,nytchina.com,Global
-DOMAIN-SUFFIX,nytcn.me,Global
-DOMAIN-SUFFIX,nytco.com,Global
-DOMAIN-SUFFIX,nytimes.com,Global
-DOMAIN-SUFFIX,nytimg.com,Global
-DOMAIN-SUFFIX,nytlog.com,Global
-DOMAIN-SUFFIX,nytstyle.com,Global
-# > pixiv
-DOMAIN-SUFFIX,pixiv.net,Global
-DOMAIN-SUFFIX,pixiv.org,Global
-DOMAIN-SUFFIX,pximg.net,Global
 # > Reddit
 DOMAIN-SUFFIX,redd.it,Global
 DOMAIN-SUFFIX,reddit.com,Global
