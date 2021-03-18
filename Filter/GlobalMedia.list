@@ -97,6 +97,7 @@ DOMAIN-SUFFIX,hbogo.com,GlobalMedia
 DOMAIN-SUFFIX,hbonow.com,GlobalMedia
 USER-AGENT,HBOMAX*,GlobalMedia
 DOMAIN-SUFFIX,hbomax.com,GlobalMedia
+DOMAIN-SUFFIX,hbomaxcdn.com,GlobalMedia
 # > HBO GO HKG
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GlobalMedia
 DOMAIN-SUFFIX,hbogoasia.com,GlobalMedia
