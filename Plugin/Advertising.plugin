@@ -1,9 +1,9 @@
-hostname = *.googlevideo.com, www.youtube.com, s.youtube.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, m*.amap.com, optimus-ads.amap.com, vali.cp31.ott.cibntv.net, iyes.youku.com, api.youku.com, hd.youku.com, ad.api.3g.youku.com, api.mobile.youku.com, m.youku.com, r.l.youku.com, *.atm.youku.com, ups.youku.com, api.appsdk.soku.com, r1.ykimg.com, api-new.app.acfun.cn, aes.acfun.cn, *.amemv.com, *.snssdk.com, issuecdn.baidupcs.com, pan.baidu.com, c.tieba.baidu.com, newclient.map.baidu.com, mime.baidu.com, act.vip.iqiyi.com, iface.iqiyi.com, iface2.iqiyi.com, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, clientaccess.10086.cn, wap.js.10086.cn, app.10086.cn, ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn, api.douban.com, rtbapi.douyucdn.cn, capi.douyucdn.cn, douyucdn.cn, staticlive.douyucdn.cn, cube.elemecdn.com, elemecdn.com, fuss10.elemecdn.com, api.feng.com, business.msstatic.com, cdnfile1.msstatic.com, imeclient.openspeech.cn, api.intsig.net, list-app-m.i4.cn, api.ithome.com, icc.one, jxd524.github.io, api.m.jd.com, ms.jr.jd.com, img*.360buyimg.com, bdsp-x.jd.com, ios.wps.cn, *.kingsoft-office-service.com, api.gotokeep.com, 122.14.246.33, 175.102.178.52, api.jr.mi.com, api-mifit*.huami.com, img.meituan.net, p*.meituan.net, s3plus.meituan.net, flowplus.meituan.net, pcvideoyd.titan.mgtv.com, appconf.mail.163.com, c.m.163.com, interface*.music.163.com, api.yangkeduo.com, api.pinduoduo.com, mage.if.qidian.com, msspjh.emarbox.com, api.rr.tv, *.uve.weibo.com, weibointl.api.weibo.cn, *.k.sohu.com, *.tv.sohu.com, business-cdn.shouji.sogou.com, ap*.smzdm.com, mpcs.suning.com, ssl.kohsocialapp.qq.com, 4gimg.map.qq.com, r.inews.qq.com, news.ssp.qq.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.psy-1.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, a.qiumibao.com, webboot.zhangyue.com, saad.ms.zhangyue.net, ih2.ireader.com, *.zhuishushenqi.com
+hostname = *.googlevideo.com,www.youtube.com,s.youtube.com,gw.alicdn.com,heic.alicdn.com,acs.m.taobao.com,m*.amap.com,optimus-ads.amap.com,vali.cp31.ott.cibntv.net,iyes.youku.com,api.youku.com,hd.youku.com,ad.api.3g.youku.com,api.mobile.youku.com,m.youku.com,r.l.youku.com,*.atm.youku.com,ups.youku.com,api.appsdk.soku.com,r1.ykimg.com,api-new.app.acfun.cn,aes.acfun.cn,*.amemv.com,*.snssdk.com,issuecdn.baidupcs.com,pan.baidu.com,c.tieba.baidu.com,newclient.map.baidu.com,mime.baidu.com,act.vip.iqiyi.com,iface.iqiyi.com,iface2.iqiyi.com,*.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,clientaccess.10086.cn,wap.js.10086.cn,app.10086.cn,ggw.cmvideo.cn,ggic.cmvideo.cn,ggv.cmvideo.cn,ggx.cmvideo.cn,api.douban.com,rtbapi.douyucdn.cn,capi.douyucdn.cn,douyucdn.cn,staticlive.douyucdn.cn,cube.elemecdn.com,elemecdn.com,fuss10.elemecdn.com,api.feng.com,business.msstatic.com,cdnfile1.msstatic.com,imeclient.openspeech.cn,api.intsig.net,list-app-m.i4.cn,api.ithome.com,icc.one,jxd524.github.io,api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com,bdsp-x.jd.com,ios.wps.cn,*.kingsoft-office-service.com,api.gotokeep.com,122.14.246.33,175.102.178.52,api.jr.mi.com,api-mifit*.huami.com,img.meituan.net,p*.meituan.net,s3plus.meituan.net,flowplus.meituan.net,pcvideoyd.titan.mgtv.com,appconf.mail.163.com,c.m.163.com,interface*.music.163.com,api.yangkeduo.com,api.pinduoduo.com,mage.if.qidian.com,msspjh.emarbox.com,api.rr.tv,*.uve.weibo.com,weibointl.api.weibo.cn,*.k.sohu.com,*.tv.sohu.com,business-cdn.shouji.sogou.com,ap*.smzdm.com,mpcs.suning.com,ssl.kohsocialapp.qq.com,4gimg.map.qq.com,r.inews.qq.com,news.ssp.qq.com,mp.weixin.qq.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,api.psy-1.com,www.zhihu.com,api.zhihu.com,link.zhihu.com,a.qiumibao.com,webboot.zhangyue.com,saad.ms.zhangyue.net,ih2.ireader.com,*.zhuishushenqi.com
 
 
 # A
 # --- (阿里) ---
-# > 淘宝 - gw.alicdn.com, heic.alicdn.com
+# > 淘宝 - gw.alicdn.com,heic.alicdn.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
 
@@ -21,12 +21,12 @@ hostname = *.googlevideo.com, www.youtube.com, s.youtube.com, gw.alicdn.com, hei
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ - reject
 
-# > 高德地图 - m*.amap.com, optimus-ads.amap.com
+# > 高德地图 - m*.amap.com,optimus-ads.amap.com
 ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
 ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject-img
 
-# > 优酷 - vali.cp31.ott.cibntv.net, iyes.youku.com, api.youku.com, hd.youku.com, ad.api.3g.youku.com, api.mobile.youku.com, m.youku.com, r.l.youku.com, *.atm.youku.com, ups.youku.com, api.appsdk.soku.com, r1.ykimg.com
+# > 优酷 - vali.cp31.ott.cibntv.net,iyes.youku.com,api.youku.com,hd.youku.com,ad.api.3g.youku.com,api.mobile.youku.com,m.youku.com,r.l.youku.com,*.atm.youku.com,ups.youku.com,api.appsdk.soku.com,r1.ykimg.com
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku - reject
 ^https?:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid= - reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) - reject-img
@@ -44,12 +44,12 @@ hostname = *.googlevideo.com, www.youtube.com, s.youtube.com, gw.alicdn.com, hei
 ^https?:\/\/r1\.ykimg\.com\/material\/.+?\/\d{6}\/\d{4}\/ - reject-img
 
 # ---
-# > AcFun - api-new.app.acfun.cn, aes.acfun.cn
+# > AcFun - api-new.app.acfun.cn,aes.acfun.cn
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
 ^https?:\/\/aes\.acfun\.cn\/s\?adzones - reject
 
 # B
-# > 字节跳动 - *.amemv.com, *.snssdk.com
+# > 字节跳动 - *.amemv.com,*.snssdk.com
 ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ - reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ - reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
@@ -76,13 +76,13 @@ hostname = *.googlevideo.com, www.youtube.com, s.youtube.com, gw.alicdn.com, hei
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
 
-# > 爱奇艺 - act.vip.iqiyi.com, iface.iqiyi.com, iface2.iqiyi.com
+# > 爱奇艺 - act.vip.iqiyi.com,iface.iqiyi.com,iface2.iqiyi.com
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 ^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch - reject-img
 
-# > 哔哩哔哩 - *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com
+# > 哔哩哔哩 - *.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com
 // 可能的一些推广
 ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject-dict
 // 首页推荐去广告
@@ -93,7 +93,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist - reject-dict
 
 # C
-# > 中国移动 - clientaccess.10086.cn, wap.js.10086.cn, app.10086.cn
+# > 中国移动 - clientaccess.10086.cn,wap.js.10086.cn,app.10086.cn
 ^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject
 ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query - reject
 ^https?:\/\/app\.10086\.cn\/biz-orange\/DN\/(findSale|homeSale)\/getsaleAdver - reject
@@ -101,7 +101,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 # > CNTV
 ^https?:\/\/www\.cntv\.cn\/nettv\/adp\/ - reject
 
-# > 咪咕视频 - ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn
+# > 咪咕视频 - ggw.cmvideo.cn,ggic.cmvideo.cn,ggv.cmvideo.cn,ggx.cmvideo.cn
 ^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ - reject
 ^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/ - reject
 ^https?:\/\/ggv\.cmvideo\.cn\/v1\/iflyad\/ - reject-img
@@ -111,7 +111,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 # > 豆瓣 - api.douban.com
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 
-# > 斗鱼 - rtbapi.douyucdn.cn, capi.douyucdn.cn, douyucdn.cn, staticlive.douyucdn.cn
+# > 斗鱼 - rtbapi.douyucdn.cn,capi.douyucdn.cn,douyucdn.cn,staticlive.douyucdn.cn
 ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo\?uid=&mdid=iphone&client_sys=ios$ - reject
 ^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
 ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update - reject-img
@@ -122,7 +122,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject-img
 
 # E
-# > 饿了么 - cube.elemecdn.com, elemecdn.com, fuss10.elemecdn.com
+# > 饿了么 - cube.elemecdn.com,elemecdn.com,fuss10.elemecdn.com
 ^https?:\/\/cube\.elemecdn\.com\/.*?\.mp4\? - reject-img
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/\w\/\w{2}\/\w+mp4\.mp4\? - reject
@@ -148,7 +148,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 ^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
 # > 韩剧TV开启1080蓝光
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
-# > 虎牙直播 - business.msstatic.com, cdnfile1.msstatic.com
+# > 虎牙直播 - business.msstatic.com,cdnfile1.msstatic.com
 ^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject-img
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource - reject
@@ -169,12 +169,12 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 http-response ^https?:\/\/api\.ithome\.com\/json\/slide\/index requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/ITHome.js,tag=IT之家去列表广告
 http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/ITHome.js
 
-# > 爱阅书香 - icc.one, jxd524.github.io
+# > 爱阅书香 - icc.one,jxd524.github.io
 ^https?:\/\/jxd524\.github\.io\/iFreeTime\/xid32uxaoecnfv2\/ - reject
 ^https?:\/\/icc\.one\/iFreeTime\/xid32uxaoecnfv2\/ - reject
 
 # J
-# > 京东 - api.m.jd.com, ms.jr.jd.com, img*.360buyimg.com, bdsp-x.jd.com
+# > 京东 - api.m.jd.com,ms.jr.jd.com,img*.360buyimg.com,bdsp-x.jd.com
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject-dict
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
@@ -183,7 +183,7 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requ
 ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
 
 # K
-# > 金山软件 - ios.wps.cn, *.kingsoft-office-service.com
+# > 金山软件 - ios.wps.cn,*.kingsoft-office-service.com
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/\w+\.kingsoft-office-service\.com\/ad - reject
 ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
@@ -193,18 +193,18 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requ
 # > Keep - api.gotokeep.com
 ^https?:\/\/api\.gotokeep\.com\/ads - reject
 
-# > 酷我 - 122.14.246.33, 175.102.178.52
+# > 酷我 - 122.14.246.33,175.102.178.52
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo - reject
 
 # M
-# > 小米 - api.jr.mi.com, api-mifit*.huami.com
+# > 小米 - api.jr.mi.com,api-mifit*.huami.com
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
 ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ - reject
 ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen - reject
 ^https?:\/\/(api-mifit|api-mifit-\w+)\.huami\.com\/discovery\/mi\/discovery\/\w+_ad\? - reject
 
-# > 美团点评 - img.meituan.net, p*.meituan.net, s3plus.meituan.net, flowplus.meituan.net
+# > 美团点评 - img.meituan.net,p*.meituan.net,s3plus.meituan.net,flowplus.meituan.net
 ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg - reject
@@ -226,7 +226,7 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requ
 ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
 
 # P
-# > 拼多多 - api.yangkeduo.com, api.pinduoduo.com
+# > 拼多多 - api.yangkeduo.com,api.pinduoduo.com
 ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject
 
 # Q
@@ -234,13 +234,13 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requ
 ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
 
 # R
-# > 人人视频 - msspjh.emarbox.com, api.rr.tv
+# > 人人视频 - msspjh.emarbox.com,api.rr.tv
 ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
 
 # S
-# > 搜狐 - *.k.sohu.com, *.tv.sohu.com
+# > 搜狐 - *.k.sohu.com,*.tv.sohu.com
 ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
 ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
 ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json - reject
@@ -294,7 +294,7 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news requ
 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject-img
 
 # ---
-# > 微博 - api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
+# > 微博 - api.weibo.cn,mapi.weibo.com,*.uve.weibo.com
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,tag=微博去广告1
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,tag=微博去广告2
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
@@ -316,19 +316,19 @@ http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positiv
 ^https?:\/\/\w+\.jstucdn\.com\/(g3\/|js\/ad) - reject
 
 # Z
-# > 知乎 - www.zhihu.com, api.zhihu.com, link.zhihu.com
+# > 知乎 - www.zhihu.com,api.zhihu.com,link.zhihu.com
 https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) _ reject-200
-http-response https://api.zhihu.com/people/ script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_People.js, requires-body=true, timeout=10, tag=知乎去广告1
-http-response https://api.zhihu.com/moments/recommend script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Feed.js, requires-body=true, timeout=10, tag=知乎去广告2
-http-response https://api.zhihu.com/topstory/recommend script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Recommend.js, requires-body=true, timeout=10, tag=知乎去广告3
-http-response https://api.zhihu.com/v4/questions script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Answer.js, requires-body=true, timeout=10, tag=知乎去广告4
-http-request https?://link.zhihu.com/?target= script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Link.js, timeout=10, tag=知乎去广告5
+http-response https://api.zhihu.com/people/ script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_People.js,requires-body=true,timeout=10,tag=知乎去广告1
+http-response https://api.zhihu.com/moments/recommend script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Feed.js,requires-body=true,timeout=10,tag=知乎去广告2
+http-response https://api.zhihu.com/topstory/recommend script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Recommend.js,requires-body=true,timeout=10,tag=知乎去广告3
+http-response https://api.zhihu.com/v4/questions script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Answer.js,requires-body=true,timeout=10,tag=知乎去广告4
+http-request https?://link.zhihu.com/?target= script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Link.js,timeout=10,tag=知乎去广告5
 
 # > 直播吧 - a.qiumibao.com
 ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 
-# > 掌阅 - webboot.zhangyue.com, saad.ms.zhangyue.net, ih2.ireader.com
+# > 掌阅 - webboot.zhangyue.com,saad.ms.zhangyue.net,ih2.ireader.com
 ^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad\/ - reject
