@@ -30,13 +30,9 @@ DOMAIN-SUFFIX,baidupcs.com,China
 DOMAIN-SUFFIX,bdimg.com,China
 DOMAIN-SUFFIX,bdstatic.com,China
 DOMAIN-SUFFIX,yunjiasu-cdn.net,China
-# > bilibili
-DOMAIN-SUFFIX,acgvideo.com,China
-DOMAIN-SUFFIX,biliapi.com,China
-DOMAIN-SUFFIX,biliapi.net,China
-DOMAIN-SUFFIX,bilibili.com,China
-DOMAIN-SUFFIX,bilibili.tv,China
-DOMAIN-SUFFIX,hdslb.com,China
+# > Battle
+DOMAIN-SUFFIX,battle.net,China
+DOMAIN-SUFFIX,blizzard.com,China
 # > ByteDance
 DOMAIN-SUFFIX,feiliao.com,China
 DOMAIN-SUFFIX,pstatp.com,China
