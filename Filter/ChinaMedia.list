@@ -2,93 +2,93 @@
 
 # (Video)
 # > Apple TV
-USER-AGENT,AppleTV*,ChinaMedia
-USER-AGENT,com.apple.tv*,ChinaMedia
-DOMAIN,np-edge.itunes.apple.com,ChinaMedia
-DOMAIN,play-edge.itunes.apple.com,ChinaMedia
-DOMAIN-SUFFIX,tv.apple.com,ChinaMedia
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
 # > Acfun
-USER-AGENT,AcFun*,ChinaMedia
-DOMAIN-SUFFIX,acfun.cn,ChinaMedia
-DOMAIN-SUFFIX,acfun.com,ChinaMedia
-DOMAIN-SUFFIX,aixifan.com,ChinaMedia
+USER-AGENT,AcFun*
+DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,acfun.com
+DOMAIN-SUFFIX,aixifan.com
 # > Bilibili
-USER-AGENT,*bili*,ChinaMedia
-USER-AGENT,Bilibili*,ChinaMedia
-USER-AGENT,bili*,ChinaMedia
-DOMAIN-SUFFIX,acg.tv,ChinaMedia
-DOMAIN-SUFFIX,acgvideo.com,ChinaMedia
-DOMAIN-SUFFIX,b23.tv,ChinaMedia
-DOMAIN-SUFFIX,biliapi.com,ChinaMedia
-DOMAIN-SUFFIX,biliapi.net,ChinaMedia
-DOMAIN-SUFFIX,bilibili.com,ChinaMedia
-DOMAIN-SUFFIX,bilibili.tv,ChinaMedia
-DOMAIN-SUFFIX,biligame.com,ChinaMedia
-DOMAIN-SUFFIX,biligame.net,ChinaMedia
-DOMAIN-SUFFIX,bilivideo.com,ChinaMedia
-DOMAIN-SUFFIX,bilivideo.net,ChinaMedia
-DOMAIN-SUFFIX,hdslb.com,ChinaMedia
-DOMAIN-SUFFIX,im9.com,ChinaMedia
+USER-AGENT,*bili*
+USER-AGENT,Bilibili*
+USER-AGENT,bili*
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,im9.com
 # > Tencent Video
-DOMAIN-SUFFIX,video.qq.com,ChinaMedia
-DOMAIN-SUFFIX,i.qq.com,ChinaMedia
-DOMAIN-SUFFIX,v.qq.com,ChinaMedia
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,i.qq.com
+DOMAIN-SUFFIX,v.qq.com
 # > iQiyi
-USER-AGENT,iQIYI*,ChinaMedia
-USER-AGENT,QYPlayer*,ChinaMedia
-DOMAIN-SUFFIX,iqiyi.com,ChinaMedia
-DOMAIN-SUFFIX,71edge.com,ChinaMedia
-DOMAIN-SUFFIX,iqiyiedge.com,ChinaMedia
+USER-AGENT,iQIYI*
+USER-AGENT,QYPlayer*
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,iqiyiedge.com
 # > Youku
-USER-AGENT,Youku*,ChinaMedia
-DOMAIN-SUFFIX,soku.com,ChinaMedia
-DOMAIN-SUFFIX,youku.com,ChinaMedia
-DOMAIN-SUFFIX,tudou.com,ChinaMedia
-DOMAIN-SUFFIX,ykimg.com,ChinaMedia
+USER-AGENT,Youku*
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,ykimg.com
 # > XiGua
-DOMAIN-SUFFIX,ixigua.com,ChinaMedia
-DOMAIN-SUFFIX,snssdk.com,ChinaMedia
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,snssdk.com
 # > HunanTV
-USER-AGENT,MGTV*,ChinaMedia
-DOMAIN-SUFFIX,hitv.com,ChinaMedia
-DOMAIN-SUFFIX,hunantv.com,ChinaMedia
-DOMAIN-SUFFIX,mgtv.com,ChinaMedia
+USER-AGENT,MGTV*
+DOMAIN-SUFFIX,hitv.com
+DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,mgtv.com
 # > LeTV
-DOMAIN-SUFFIX,le.com,ChinaMedia
-DOMAIN-SUFFIX,letv.com,ChinaMedia
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,letv.com
 # > PPTV
-DOMAIN-SUFFIX,pplive.com,ChinaMedia
-DOMAIN-SUFFIX,pptv.com,ChinaMedia
+DOMAIN-SUFFIX,pplive.com
+DOMAIN-SUFFIX,pptv.com
 # > Sohu Video
-DOMAIN-SUFFIX,56.com,ChinaMedia
-DOMAIN-SUFFIX,itc.cn,ChinaMedia
-DOMAIN-SUFFIX,sohu.com,ChinaMedia
+DOMAIN-SUFFIX,56.com
+DOMAIN-SUFFIX,itc.cn
+DOMAIN-SUFFIX,sohu.com
 # > Migu Video
-USER-AGENT,MiguVideo*,ChinaMedia
-DOMAIN-SUFFIX,cmvideo.cn,ChinaMedia
-DOMAIN-SUFFIX,miguvideo.com,ChinaMedia
+USER-AGENT,MiguVideo*
+DOMAIN-SUFFIX,cmvideo.cn
+DOMAIN-SUFFIX,miguvideo.com
 
 # (Music)
 # > QQ Music
-DOMAIN-SUFFIX,music.qq.com,ChinaMedia
-DOMAIN-SUFFIX,music.tc.qq.com,ChinaMedia
-DOMAIN-SUFFIX,qqmusic.qq.com,ChinaMedia
-DOMAIN-SUFFIX,tencentmusic.com,ChinaMedia
-DOMAIN-SUFFIX,y.qq.com,ChinaMedia
-DOMAIN,aqqmusic.tc.qq.com,ChinaMedia
-DOMAIN,moo.qq.com,ChinaMedia
+DOMAIN-SUFFIX,music.qq.com
+DOMAIN-SUFFIX,music.tc.qq.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN,aqqmusic.tc.qq.com
+DOMAIN,moo.qq.com
 # > Netease Cloud Music
-DOMAIN-SUFFIX,music.163.com,ChinaMedia
-DOMAIN-SUFFIX,music.126.net,ChinaMedia
-DOMAIN,mam.netease.com,ChinaMedia
-DOMAIN,api.iplay.163.com,ChinaMedia
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN,mam.netease.com
+DOMAIN,api.iplay.163.com
 # Kugou and Kuwo
-DOMAIN-SUFFIX,kugou.com,ChinaMedia
-DOMAIN-SUFFIX,kuwo.cn,ChinaMedia
-DOMAIN-SUFFIX,koowo.com,ChinaMedia
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,koowo.com
 # > Qianqian Music
-USER-AGENT,baiduyinyue,ChinaMedia
-DOMAIN-SUFFIX,qianqian.com,ChinaMedia
-DOMAIN-SUFFIX,taihe.com,ChinaMedia
+USER-AGENT,baiduyinyue
+DOMAIN-SUFFIX,qianqian.com
+DOMAIN-SUFFIX,taihe.com
 # > Migu Music
-DOMAIN-SUFFIX,migu.cn,ChinaMedia
+DOMAIN-SUFFIX,migu.cn
