@@ -1,4 +1,4 @@
 # Instagram
 
-DOMAIN-SUFFIX,cdninstagram.com,Instagram
-DOMAIN-SUFFIX,instagram.com,Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
