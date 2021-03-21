@@ -143,8 +143,9 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 ^https?:\/\/cube\.elemecdn\.com\/[\w\/]+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{3},h_\d{4}\/format,webp\/ - reject
 ^https?:\/\/cube\.elemecdn\.com\/\w\/\w{2}\/\w+mp4\.mp4\? - reject
 ^https?:\/\/elemecdn\.com\/.+?\/sitemap - reject-img
-^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject-img
 ^https?:\/\/fuss10\.elemecdn\.com\/.+?\/w\/640\/h\/\d{3,4} - reject-img
+^https?:\/\/fuss10\.elemecdn\.com\/.+?\.mp4 - reject-img
+^https?:\/\/cube\.elemecdn\.com\/.*?\.mp4\? - reject-img
 
 # F
 # > 威锋网 - api.feng.com
