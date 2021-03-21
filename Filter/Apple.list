@@ -2,49 +2,49 @@
 
 # Apple_CDN
 # > App Store
-USER-AGENT,com.apple.appstored*,Apple_CDN
-DOMAIN-SUFFIX,mzstatic.com,Apple_CDN
-DOMAIN,iosapps.itunes.apple.com,Apple_CDN
-DOMAIN,osxapps.itunes.apple.com,Apple_CDN
+USER-AGENT,com.apple.appstored*
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
 # > Update
-DOMAIN,supportdownload.apple.com,Apple_CDN
-DOMAIN,appldnld.apple.com,Apple_CDN
-DOMAIN,swcdn.apple.com,Apple_CDN
-DOMAIN,apptrailers.itunes.apple.com,Apple_CDN
-DOMAIN,updates-http.cdn-apple.com,Apple_CDN
+DOMAIN,supportdownload.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,apptrailers.itunes.apple.com
+DOMAIN,updates-http.cdn-apple.com
 # Apple Music
-DOMAIN,aod.itunes.apple.com,Apple_CDN
-DOMAIN,api.smoot.apple.cn,Apple_CDN
-DOMAIN,music.apple.com,Apple_CDN
-DOMAIN,mvod.itunes.apple.com,Apple_CDN
+DOMAIN,aod.itunes.apple.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN,music.apple.com
+DOMAIN,mvod.itunes.apple.com
 # > Map
-DOMAIN-SUFFIX,ls.apple.com,Apple_CDN
-DOMAIN,gs-loc-cn.apple.com,Apple_CDN
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN,gs-loc-cn.apple.com
 
 # Apple_API
-DOMAIN-SUFFIX,aaplimg.com,Apple_API
-DOMAIN-SUFFIX,apple.co,Apple_API
-DOMAIN-SUFFIX,apple.com,Apple_API
-DOMAIN-SUFFIX,apple-cloudkit.com,Apple_API
-DOMAIN-SUFFIX,appsto.re,Apple_API
-DOMAIN-SUFFIX,cdn-apple.com,Apple_API
-DOMAIN-SUFFIX,icloud.com,Apple_API
-DOMAIN-SUFFIX,icloud-content.com,Apple_API
-DOMAIN-SUFFIX,itunes.com,Apple_API
-DOMAIN-SUFFIX, me.com,Apple_API
-IP-CIDR,17.0.0.0/8,Apple_API
-IP-CIDR,63.92.224.0/19,Apple_API
-IP-CIDR,65.199.22.0/23,Apple_API
-IP-CIDR,139.178.128.0/18,Apple_API
-IP-CIDR,144.178.0.0/19,Apple_API
-IP-CIDR,144.178.36.0/22,Apple_API
-IP-CIDR,144.178.48.0/20,Apple_API
-IP-CIDR,192.35.50.0/24,Apple_API
-IP-CIDR,198.183.17.0/24,Apple_API
-IP-CIDR,205.180.175.0/24,Apple_API
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX, me.com
+IP-CIDR,17.0.0.0/8
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.36.0/22
+IP-CIDR,144.178.48.0/20
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
 # Apple News
-DOMAIN-SUFFIX,apple.news,Apple_API
+DOMAIN-SUFFIX,apple.news
 
 # TestFlight
-DOMAIN,beta.apple.com,TestFlight
-DOMAIN,testflight.apple.com,TestFlight
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
