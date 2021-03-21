@@ -14,7 +14,6 @@ DOMAIN-SUFFIX,dropbox.com,Global
 DOMAIN-SUFFIX,dropboxapi.com,Global
 DOMAIN-SUFFIX,dropboxusercontent.com,Global
 # > Facebook
-DOMAIN-SUFFIX,cdninstagram.com,Global
 DOMAIN-SUFFIX,facebook.com,Global
 DOMAIN-SUFFIX,facebook.net,Global
 DOMAIN-SUFFIX,fb.com,Global
@@ -23,7 +22,6 @@ DOMAIN-SUFFIX,fbaddins.com,Global
 DOMAIN-SUFFIX,fbcdn.net,Global
 DOMAIN-SUFFIX,fbsbx.com,Global
 DOMAIN-SUFFIX,fbworkmail.com,Global
-DOMAIN-SUFFIX,instagram.com,Global
 DOMAIN-SUFFIX,m.me,Global
 DOMAIN-SUFFIX,messenger.com,Global
 DOMAIN-SUFFIX,oculus.com,Global
