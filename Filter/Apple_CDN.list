@@ -1,21 +1,21 @@
 # Apple_CDN
 
 # > App Store
-USER-AGENT,com.apple.appstored*,Apple_CDN
-DOMAIN-SUFFIX,mzstatic.com,Apple_CDN
-DOMAIN,iosapps.itunes.apple.com,Apple_CDN
-DOMAIN,osxapps.itunes.apple.com,Apple_CDN
+USER-AGENT,com.apple.appstored*
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
 # > Update
-DOMAIN,supportdownload.apple.com,Apple_CDN
-DOMAIN,appldnld.apple.com,Apple_CDN
-DOMAIN,swcdn.apple.com,Apple_CDN
-DOMAIN,apptrailers.itunes.apple.com,Apple_CDN
-DOMAIN,updates-http.cdn-apple.com,Apple_CDN
+DOMAIN,supportdownload.apple.com
+DOMAIN,appldnld.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,apptrailers.itunes.apple.com
+DOMAIN,updates-http.cdn-apple.com
 # Apple Music
-DOMAIN,aod.itunes.apple.com,Apple_CDN
-DOMAIN,api.smoot.apple.cn,Apple_CDN
-DOMAIN,music.apple.com,Apple_CDN
-DOMAIN,mvod.itunes.apple.com,Apple_CDN
+DOMAIN,aod.itunes.apple.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN,music.apple.com
+DOMAIN,mvod.itunes.apple.com
 # > Map
-DOMAIN-SUFFIX,ls.apple.com,Apple_CDN
-DOMAIN,gs-loc-cn.apple.com,Apple_CDN
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN,gs-loc-cn.apple.com
