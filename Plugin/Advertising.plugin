@@ -186,12 +186,11 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 
 # J
 # > 京东 - api.m.jd.com, ms.jr.jd.com, img*.360buyimg.com, bdsp-x.jd.com
-^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject-dict
+^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ - reject
-^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-200
-^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 
 # K
 # > 金山软件 - ios.wps.cn, *.kingsoft-office-service.com
