@@ -29,7 +29,9 @@ http-response https://api.zhihu.com/moments/recommend script-path=https://raw.gi
 http-response https://api.zhihu.com/topstory/recommend script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Recommend.js, requires-body=true, timeout=10, tag=知乎去广告3
 http-response https://api.zhihu.com/v4/questions script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Answer.js, requires-body=true, timeout=10, tag=知乎去广告4
 http-request https?://link.zhihu.com/?target= script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_Link.js, timeout=10, tag=知乎去广告5
-
+^https?:\/\/api\.zhihu\.com\/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) - reject-200
+[Rule]
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
 
 # 重写去广告
 [URL Rewrite]
