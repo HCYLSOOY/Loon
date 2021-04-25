@@ -162,6 +162,8 @@ DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,wechat.com
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,203.205.254.0/23,no-resolve
 # >> PUBG Mobile
 DOMAIN-SUFFIX,igamecj.com
 DOMAIN,file-igamecj.akamaized.net
