@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bilivideo.net
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
+DOMAIN-SUFFIX,app.biliintl.com
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
 # > Tencent Video
 DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,i.qq.com
