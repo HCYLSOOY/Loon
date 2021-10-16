@@ -306,8 +306,8 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 #^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
 
 # > 喜马拉雅FM
-^https?:\/\/.+?\/api\/v\d\/adRealTime - reject
-^https?:\/\/.+?\/(outadservice|ting\/preload)\/ - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/api\/v\d\/adRealTime - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(outadservice|ting\/preload)\/ - reject
 
 # Y
 # > Youtube++
@@ -326,7 +326,7 @@ https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|pre
 
 # > 直播吧 - a.qiumibao.com
 ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
-^https?:\/\/.+?\/allOne\.php\?ad_name - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 
 # > 掌阅 - webboot.zhangyue.com, saad.ms.zhangyue.net, ih2.ireader.com
 #^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
