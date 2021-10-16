@@ -185,7 +185,6 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 # > 金山软件 - ios.wps.cn, *.kingsoft-office-service.com
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/\w+\.kingsoft-office-service\.com\/ad - reject
-^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
 ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
 
