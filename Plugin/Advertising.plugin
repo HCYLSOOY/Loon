@@ -6,7 +6,7 @@ hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtub
 [Script]
 # > 哔哩哔哩 - *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com
 // 可能的一些推广
-^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject-dict
+#^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject-dict
 // 去除动态中的话题 
 ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject-dict
 // 去除动态中的最常访问 
