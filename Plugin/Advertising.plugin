@@ -4,7 +4,7 @@ hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtub
 # 规则去广告
 [Rule]
 # > 哔哩哔哩
-DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+#DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 #URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
 // 可能的一些推广(beta)
 #URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
