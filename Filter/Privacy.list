@@ -44,12 +44,12 @@ DOMAIN,tracklog.58.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 # > ByteDance
-DOMAIN,log.byteoversea.com
-DOMAIN,log.tiktokv.com
-DOMAIN,log-hl-ipv6.snssdk.com
-DOMAIN,log-lq.snssdk.com
-DOMAIN,log-va.tiktokv.com
-DOMAIN,xlog.snssdk.com
+#DOMAIN,log.byteoversea.com
+#DOMAIN,log.tiktokv.com
+#DOMAIN,log-hl-ipv6.snssdk.com
+#DOMAIN,log-lq.snssdk.com
+#DOMAIN,log-va.tiktokv.com
+#DOMAIN,xlog.snssdk.com
 # > Google
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,google-analytics.com
