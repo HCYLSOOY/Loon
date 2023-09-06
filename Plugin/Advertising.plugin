@@ -311,8 +311,9 @@ https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|pre
 #^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
 
 # > 直播吧 - a.qiumibao.com
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject-200
-^https?:\/\/.+\/allOne\.php\?ad_name - reject-200
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+^https?:\/\/.+\/allOne\.php\?ad_name - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 
 # > 掌阅 - webboot.zhangyue.com, saad.ms.zhangyue.net, ih2.ireader.com
 #^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/ - reject
