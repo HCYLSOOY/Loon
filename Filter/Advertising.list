@@ -548,38 +548,38 @@ DOMAIN,yt-adp.ws.126.net
 
 # (P)
 # > PPTV
-DOMAIN,ads.aplus.pptv.com
-DOMAIN,ads.aplusapi.pptv.com
-DOMAIN,asimgs.pplive.cn
-DOMAIN,de.as.pptv.com
+#DOMAIN,ads.aplus.pptv.com
+#DOMAIN,ads.aplusapi.pptv.com
+#DOMAIN,asimgs.pplive.cn
+#DOMAIN,de.as.pptv.com
 # > Phoenix New Media
-DOMAIN-SUFFIX,deliver.ifeng.com
-DOMAIN,api.newad.ifeng.com
-DOMAIN,ifengad.3g.ifeng.com
+#DOMAIN-SUFFIX,deliver.ifeng.com
+#DOMAIN,api.newad.ifeng.com
+#DOMAIN,ifengad.3g.ifeng.com
 
 # (Q)
 # > QingTing
-DOMAIN,ad.qingting.fm
-DOMAIN,adlaunch.qingting.fm
-DOMAIN,ad-cdn.qingting.fm
+#DOMAIN,ad.qingting.fm
+#DOMAIN,adlaunch.qingting.fm
+#DOMAIN,ad-cdn.qingting.fm
 
 # (S)
 # > Sina
-DOMAIN-SUFFIX,alitui.weibo.com
-DOMAIN-SUFFIX,beacon.sina.com.cn
-DOMAIN,adimg.uve.weibo.com
-DOMAIN,adimg.vue.weibo.com
-DOMAIN,u1.img.mobile.sina.cn
-DOMAIN,sax.sina.com.cn
-DOMAIN,saxs.sina.com.cn
-DOMAIN,saxn.sina.com.cn
+#DOMAIN-SUFFIX,alitui.weibo.com
+#DOMAIN-SUFFIX,beacon.sina.com.cn
+#DOMAIN,adimg.uve.weibo.com
+#DOMAIN,adimg.vue.weibo.com
+#DOMAIN,u1.img.mobile.sina.cn
+#DOMAIN,sax.sina.com.cn
+#DOMAIN,saxs.sina.com.cn
+#DOMAIN,saxn.sina.com.cn
 # > SOHU
-DOMAIN-SUFFIX,ad.sohu.com
-DOMAIN-SUFFIX,ads.sohu.com
-DOMAIN-SUFFIX,aty.sohu.com
-DOMAIN,imp.optaim.com
-DOMAIN,v2.reachmax.cn
-DOMAIN,hui.sohu.com
+#DOMAIN-SUFFIX,ad.sohu.com
+#DOMAIN-SUFFIX,ads.sohu.com
+#DOMAIN-SUFFIX,aty.sohu.com
+#DOMAIN,imp.optaim.com
+#DOMAIN,v2.reachmax.cn
+#DOMAIN,hui.sohu.com
 
 # (T)
 # --- (Tencent) ---
@@ -634,5 +634,5 @@ DOMAIN,118.89.204.198
 IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 # > ZOL
-DOMAIN,apppv.zol.com.cn
-DOMAIN,pvnapp.zol.com.cn
+#DOMAIN,apppv.zol.com.cn
+#DOMAIN,pvnapp.zol.com.cn
