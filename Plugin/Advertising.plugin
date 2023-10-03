@@ -283,7 +283,7 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject-img
 
 # > 微博
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
+#^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
 
 # X
 # > 小睡眠 - api.psy-1.com
