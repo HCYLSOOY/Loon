@@ -311,9 +311,9 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 #^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
 
 # > 直播吧 - a.qiumibao.com
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
-^https?:\/\/.+\/allOne\.php\?ad_name - reject
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
+#^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+#^https?:\/\/.+\/allOne\.php\?ad_name - reject
+#^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
 URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 
