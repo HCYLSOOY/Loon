@@ -314,8 +314,8 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 #^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
 #^https?:\/\/.+\/allOne\.php\?ad_name - reject
 #^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
-URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
-#URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
+#URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
+URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 
 
 # > 掌阅 - webboot.zhangyue.com, saad.ms.zhangyue.net, ih2.ireader.com
