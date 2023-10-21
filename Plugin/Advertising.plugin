@@ -305,7 +305,7 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 
 # Z
 # > 知乎
-https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) - reject-200
+#https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) - reject-200
 #^https?:\/\/api\.zhihu\.com\/(notifications\/v3\/count|v3\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad) - reject
 #^https?:\/\/api\.zhihu\.com\/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) - reject
 #^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject
