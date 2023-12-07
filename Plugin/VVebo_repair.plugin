@@ -7,7 +7,7 @@ http-request ^https:\/\/api\.weibo\.cn\/2\/users\/show\? script-path=https://raw
 
 http-request ^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? script-path=https://raw.githubusercontent.com/HCYLSOOY/Loon/master/Plugin/VVebo_repair.js, tag=修复时间线
 
-http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/statuses\/tab\? script-path=https://raw.githubusercontent.com/HCYLSOOY/Loon/master/Plugin/VVebo_repair.js, requires-body=true, tag=修复时间线
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\? script-path=https://raw.githubusercontent.com/HCYLSOOY/Loon/master/Plugin/VVebo_repair.js, requires-body=true, tag=修复时间线
 
 [Mitm]
 hostname = api.weibo.cn
