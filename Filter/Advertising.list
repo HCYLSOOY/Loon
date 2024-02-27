@@ -565,14 +565,14 @@ DOMAIN,yt-adp.ws.126.net
 
 # (S)
 # > Sina
-#DOMAIN-SUFFIX,alitui.weibo.com
-#DOMAIN-SUFFIX,beacon.sina.com.cn
-#DOMAIN,adimg.uve.weibo.com
-#DOMAIN,adimg.vue.weibo.com
-#DOMAIN,u1.img.mobile.sina.cn
-#DOMAIN,sax.sina.com.cn
-#DOMAIN,saxs.sina.com.cn
-#DOMAIN,saxn.sina.com.cn
+DOMAIN-SUFFIX,alitui.weibo.com
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN,adimg.uve.weibo.com
+DOMAIN,adimg.vue.weibo.com
+DOMAIN,u1.img.mobile.sina.cn
+DOMAIN,sax.sina.com.cn
+DOMAIN,saxs.sina.com.cn
+DOMAIN,saxn.sina.com.cn
 # > SOHU
 #DOMAIN-SUFFIX,ad.sohu.com
 #DOMAIN-SUFFIX,ads.sohu.com
