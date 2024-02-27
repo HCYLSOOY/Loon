@@ -2,7 +2,7 @@
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
 
 [MITM]
-hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, api-new.app.acfun.cn, issuecdn.baidupcs.com, pan.baidu.com, c.tieba.baidu.com, newclient.map.baidu.com, act.vip.iqiyi.com, iface.iqiyi.com, clientaccess.10086.cn, wap.js.10086.cn, ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn, rtbapi.douyucdn.cn, api.feng.com, list-app-m.i4.cn, api.ithome.com, pcvideoyd.titan.mgtv.com, interface*.music.163.com, api.yangkeduo.com, api.pinduoduo.com, ap*.smzdm.com, news.ssp.qq.com, ulogs.umeng.com, ulogs.umengcloud.com, alogs.umeng.co, msg.umengcloud.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, a.qiumibao.com 
+hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, api-new.app.acfun.cn, issuecdn.baidupcs.com, pan.baidu.com, c.tieba.baidu.com, newclient.map.baidu.com, act.vip.iqiyi.com, iface.iqiyi.com, clientaccess.10086.cn, wap.js.10086.cn, ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn, api.douban.com, rtbapi.douyucdn.cn, api.feng.com, business.msstatic.com, list-app-m.i4.cn, api.ithome.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn, pcvideoyd.titan.mgtv.com, interface*.music.163.com, api.yangkeduo.com, api.pinduoduo.com, ap*.smzdm.com, news.ssp.qq.com, ulogs.umeng.com, ulogs.umengcloud.com, alogs.umeng.co, msg.umengcloud.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, a.qiumibao.com
 
 # 规则去广告
 [Rule]
@@ -37,8 +37,8 @@ http-response ^https?:\/\/api\.ithome\.com\/json\/slide\/index script-path= http
 http-response ^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news script-path= https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/ITHome.js, requires-body=true, timeout=10, tag=IT之家去广告2
 
 # > 微博 - api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn
-#http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js, tag=微博去广告1
-#http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info) requires-body=1, max-size=-1, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js, tag=微博去广告2
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js, tag=微博去广告1
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info) requires-body=1, max-size=-1, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js, tag=微博去广告2
 
 # > 知乎 - www.zhihu.com, api.zhihu.com, link.zhihu.com
 http-response https://api.zhihu.com/people/ script-path=https://raw.githubusercontent.com/HCYLSOOY/QX/master/Advertising-JS/Zhihu_People.js, requires-body=true, timeout=10, tag=知乎去广告1
@@ -136,7 +136,7 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 
 # D
 # > 豆瓣 - api.douban.com
-#^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ - reject
 
 # > 斗鱼 - rtbapi.douyucdn.cn
 ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
@@ -162,13 +162,13 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 
 # H
 # > 韩剧TV
-^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
+#^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
 
 # > 韩剧TV开启1080蓝光
-^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
+#^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
 
 # > 虎牙直播 - business.msstatic.com
-#^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 # > 虎扑
 #^https?+:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init - reject
@@ -286,7 +286,7 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|getappmsgad|report|appmsgreport|appmsgpicreport) - reject-img
 
 # > 微博
-#^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
 
 # X
 # > 小睡眠 - api.psy-1.com
@@ -315,8 +315,8 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 
 # > 直播吧 - a.qiumibao.com
 ^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 #^https?:\/\/.+\/allOne\.php\?ad_name - reject
-#^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
 #URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
 #URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 
