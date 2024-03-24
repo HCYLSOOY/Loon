@@ -166,10 +166,11 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 # H
 # > 韩剧TV
 #^https?:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp\? - reject
+^https?:\/\/hxqapi\.hiyun\.tv\/api\/carp\/kp\? - reject
 
 # > 韩剧TV开启1080蓝光
 #^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
-^http:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
+#^http:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4 - response-body "quality":\d response-body "quality":10
 
 # > 虎牙直播 - business.msstatic.com
 ^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
