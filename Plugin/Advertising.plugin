@@ -2,7 +2,7 @@
 #!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
 
 [MITM]
-hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, api-new.app.acfun.cn, issuecdn.baidupcs.com, pan.baidu.com, c.tieba.baidu.com, newclient.map.baidu.com, act.vip.iqiyi.com, iface.iqiyi.com, clientaccess.10086.cn, wap.js.10086.cn, ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn, api.douban.com, rtbapi.douyucdn.cn, api.feng.com, business.msstatic.com, list-app-m.i4.cn, api.ithome.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn, pcvideoyd.titan.mgtv.com, interface*.music.163.com, api.yangkeduo.com, api.pinduoduo.com, ap*.smzdm.com, news.ssp.qq.com, ulogs.umeng.com, ulogs.umengcloud.com, alogs.umeng.co, msg.umengcloud.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, a.qiumibao.com
+hostname = *.googlevideo.com, youtubei.googleapis.com, www.youtube.com, s.youtube.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, api-new.app.acfun.cn, issuecdn.baidupcs.com, pan.baidu.com, c.tieba.baidu.com, newclient.map.baidu.com, act.vip.iqiyi.com, iface.iqiyi.com, clientaccess.10086.cn, wap.js.10086.cn, ggw.cmvideo.cn, ggic.cmvideo.cn, ggv.cmvideo.cn, ggx.cmvideo.cn, api.douban.com, rtbapi.douyucdn.cn, api.feng.com, business.msstatic.com, list-app-m.i4.cn, api.ithome.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibointl.api.weibo.cn, pcvideoyd.titan.mgtv.com, interface*.music.163.com, api.yangkeduo.com, api.pinduoduo.com, ap*.smzdm.com, news.ssp.qq.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, a.qiumibao.com
 
 # 规则去广告
 [Rule]
@@ -306,10 +306,10 @@ http-request https?://link.zhihu.com/?target= script-path=https://raw.githubuser
 #^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ - reject
 
 # > 友盟 - ulogs.umeng.com, ulogs.umengcloud.com, alogs.umeng.co, msg.umengcloud.com
-^https?:\/\/ulogs\.umeng\.com - reject-img
-^https?:\/\/ulogs\.umengcloud\.com - reject-img
-^https?:\/\/alogs\.umeng\.co - reject-img
-^https:\/\/msg\.umengcloud\.com\/admsg\/ - reject
+#^https?:\/\/ulogs\.umeng\.com - reject-img
+#^https?:\/\/ulogs\.umengcloud\.com - reject-img
+#^https?:\/\/alogs\.umeng\.co - reject-img
+#^https:\/\/msg\.umengcloud\.com\/admsg\/ - reject
 
 # Z
 # > 知乎
