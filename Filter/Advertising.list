@@ -454,9 +454,9 @@ IP-CIDR,101.227.200.28/32
 IP-CIDR,124.192.153.42/32
 # ------
 # > ByteDance
-#DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-#DOMAIN,ad.toutiao.com
-#DOMAIN,pangolin.snssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN,ad.toutiao.com
+DOMAIN,pangolin.snssdk.com
 # > Braze
 DOMAIN-SUFFIX,iad.appboy.com
 DOMAIN-SUFFIX,iad-03.appboy.com
