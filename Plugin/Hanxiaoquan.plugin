@@ -1,4 +1,4 @@
-#!name=º«Ð¡È¦
+#!name=韩小圈
 
 [Script]
 http-request ^http?:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4.*? script-path=https://gist.githubusercontent.com/Yu9191/83b0ec1da0882a9ff6fb70cc3de89c8d/raw/hxqheader.js, timeout=60
